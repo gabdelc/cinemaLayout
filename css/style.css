@@ -1,0 +1,46 @@
+body{
+    background-color: #f2f2f2;
+    font-family: sans-serif;
+}
+
+header {
+   display: inline block;
+   
+}
+
+header span{
+    color: #c9c7c7;
+    position: absolute;
+    top: 3%;
+    left: 25%;
+    }
+
+.seach-box input{
+    font-size: 15px;
+    position: absolute;
+    top: 3%;
+    left: 25%;
+}
+
+.hero .banner{
+    background: #362d2d url(../img/banner.jpg) no-repeat;
+    background-size: contain;
+}
+
+.search-box .fa-search{
+       margin left: -25%;
+   }
+
+.estrenos img{
+    width: 100%;
+}           
+
+.cartelera img{
+    width: 100%;
+}
+
+.movie info{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
