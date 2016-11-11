@@ -15,11 +15,11 @@ header span{
     left: 25%;
     }
 
-.seach-box input{
+.search-box input{
+    padding: 7px;
     font-size: 15px;
-    position: absolute;
-    top: 3%;
-    left: 25%;
+    margin: 5px;
+    
 }
 
 .hero .banner{
@@ -28,7 +28,7 @@ header span{
 }
 
 .search-box .fa-search{
-       margin left: -25%;
+       margin left: -55%;
    }
 
 .estrenos img{
