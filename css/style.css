@@ -27,18 +27,29 @@ header span{
 }
 
 .hero .banner{
-    background: #362d2d url(../img/banner.jpg) no-repeat;
+    background: rgba(54, 48, 48, 0.96) url(../img/banner.jpg) no-repeat;
     background-size: contain;
 }
 
 
 .estrenos img{
     width: 100%;
-}           
+} 
 
-.hero{
+.estrenos .naranja {
+    padding: 2%;
+    background-color: #e8c83f;
+    }
+
+.hero, .hero p{
     color: white;
     }
+.hero span{
+    color: #5eb95b;
+    border: #5eb95b solid 1px;
+    padding: 1%;
+    font-size: 15px;
+}
 
 .hero h1, table, apan, p{
     padding: 10%;
@@ -50,14 +61,14 @@ padding: 3%;
     }
 
 .buttonwatch{
-	background-color: rgb(223, 182, 54);
+	background-color: #dfb636;
 }
 
 .buttonbook{
-	background-color: rgb(187, 123, 41);
+	background-color: #bb7b29;
 }
 
-.buttonwatch, .buttonbook{
+.buttonwatch, .buttonbook {
 	width: 170px;
 	color: white;
 	padding: 8px;
@@ -70,25 +81,49 @@ a{
 	text-decoration: none;
 }
 
-.estrenos .naranja {
-    padding: 2%;
-    background-color: #e8c83f:
-}
-
 .cartelera img{
     width: 100%;
-}
-
-.movie info{
-    padding-top: 20px;
-    padding-bottom: 20px;
 }
 
 .contenido .discount {
     color: #C79355;
 }
     |
-}
 .contenido h1 {
-    padding:30px 0px 0px 0px;
+    padding: 3% 0px 0px 0px;
 }
+
+.ticket-contenido{
+    padding-top: 5%;
+}
+
+.contenido h3, p {
+    color: rgba(11, 11, 11, 0.62);
+    margin: 0;
+    padding: 1% 0;
+}
+.contenido p, .fecha{
+    font-size: 12px;
+     color: rgba(11, 11, 11, 0.62);
+    
+}
+
+.contenido li{
+    list-style: none;
+    margin-bottom: 4%;
+    border-bottom: 1px solid #766f6f;
+   }
+
+.contenido .buttonmore{
+    color: #dfb636;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+footer{
+    color: rgba(11, 11, 11, 0.62);
+    text-align: left;
+    font-size: 10px;
+    margin-left: 5%;
+}
+
