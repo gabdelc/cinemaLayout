@@ -15,6 +15,10 @@ header span{
     left: 25%;
     }
 
+.search-box .fa-search {
+       margin left: -55%;
+   }
+
 .search-box input{
     padding: 7px;
     font-size: 15px;
@@ -27,13 +31,49 @@ header span{
     background-size: contain;
 }
 
-.search-box .fa-search{
-       margin left: -55%;
-   }
 
 .estrenos img{
     width: 100%;
 }           
+
+.hero{
+    color: white;
+    }
+
+.hero h1, table, apan, p{
+    padding: 10%;
+    margin: 1%;
+      }
+
+.hero table tr, td {
+padding: 3%;
+    }
+
+.buttonwatch{
+	background-color: rgb(223, 182, 54);
+}
+
+.buttonbook{
+	background-color: rgb(187, 123, 41);
+}
+
+.buttonwatch, .buttonbook{
+	width: 170px;
+	color: white;
+	padding: 8px;
+	margin: 15px 0px;
+	display: block;
+	font-size: 13px;
+}
+
+a{
+	text-decoration: none;
+}
+
+.estrenos .naranja {
+    padding: 2%;
+    background-color: #e8c83f:
+}
 
 .cartelera img{
     width: 100%;
@@ -44,3 +84,11 @@ header span{
     padding-bottom: 20px;
 }
 
+.contenido .discount {
+    color: #C79355;
+}
+    |
+}
+.contenido h1 {
+    padding:30px 0px 0px 0px;
+}
