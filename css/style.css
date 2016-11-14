@@ -23,12 +23,17 @@ header span{
     padding: 7px;
     font-size: 15px;
     margin: 5px;
-    
+    }
+
+.hero {
+    background: rgba(54, 48, 48, 0.96) url(../img/banner.jpg) no-repeat ;
+    background-size: contain;
 }
 
-.hero .banner{
-    background: rgba(54, 48, 48, 0.96) url(../img/banner.jpg) no-repeat;
-    background-size: contain;
+.banner .logo img{
+    position: absolute;
+    top: 45%;
+    left: 22.5%;    
 }
 
 
@@ -36,7 +41,7 @@ header span{
     width: 100%;
 } 
 
-.estrenos .naranja {
+.naranja {
     padding: 2%;
     background-color: #e8c83f;
     }
